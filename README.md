@@ -21,6 +21,8 @@ PeckZeg's Collections
 
 ## Web Development
 
+* [JavaScript](web-dev/javascript/summary.md)
+
 ### HTML
 
 * [条件注释](web-dev/html/conditional-comment.md)
@@ -37,13 +39,13 @@ PeckZeg's Collections
 
 
 
-## Git
+## Version Control
+
+### Git
 
 * [Git 环境搭建](git/git-config-guide.md)
 
-
-
-## Svn
+### Svn
 
 * [Subversion 权威指南](http://i18n-zh.googlecode.com/svn/www/svnbook-1.4/index.html)
 
