@@ -1,6 +1,10 @@
 NodeJS
 ======
 
+## Mirrors
+
+* [淘宝 NPM 镜像][mirror-taobao-npm]
+
 ## Libraries
 
 *  [cheerio][cheerio-npm]
@@ -11,7 +15,9 @@ NodeJS
     -  [github][phantom-github]
 *  [co][co-npm]
     -  [github][co-github]
-*  [Q](q-npm)
+*  [thunkify][thunkify-npm]
+    -  [github][thunkify-github]
+*  [Q][q-npm]
     -  [github][q-github]
 
 
@@ -22,6 +28,7 @@ NodeJS
 
 
 
+[mirror-taobao-npm]: http://npm.taobao.org/
 
 [cheerio-npm]: https://www.npmjs.com/package/cheerio
 [cheerio-github]: https://github.com/cheeriojs/cheerio
@@ -37,6 +44,9 @@ NodeJS
 
 [q-npm]: https://www.npmjs.com/package/q
 [q-github]: https://github.com/kriskowal/q
+
+[thunkify-npm]: https://www.npmjs.com/package/thunkify
+[thunkify-github]: https://github.com/tj/node-thunkify
 
 [phantomjs-official]: http://phantomjs.org/
 [phantomjs-api-docs]: http://phantomjs.org/api/
