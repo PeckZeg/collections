@@ -22,6 +22,7 @@ PeckZeg's Collections
 ## Web Development
 
 * [JavaScript](web-dev/javascript/summary.md)
+* [SASS](web-dev/sass/summary.md)
 
 ### HTML
 
