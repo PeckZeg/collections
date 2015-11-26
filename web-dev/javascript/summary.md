@@ -7,6 +7,13 @@ Web Development - JavaScript
 
 
 
+## Libraries
+
+* [Lodash][lodash-website]
+    - [docs][lodash-docs]
+
+
+
 ## ECMAScript 6
 
 * Features
@@ -27,3 +34,8 @@ Web Development - JavaScript
 ## Articles
 
 * [JavaScript Promise 迷你书（中文版）](http://liubin.github.io/promises-book)
+
+
+
+[lodash-website]: https://lodash.com/
+[lodash-docs]: https://lodash.com/docs

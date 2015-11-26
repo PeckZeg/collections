@@ -26,6 +26,11 @@ NodeJS
 * [Official][phantomjs-official]
 * [API Docs][phantomjs-api-docs]
 
+## Articles
+
+* [在 win10 上安装 `node-gyp`][qa-1]
+* [将 Npm 的源替换成淘宝的源][replace-registry-to-taobao-npm.md]
+
 
 
 [mirror-taobao-npm]: http://npm.taobao.org/
@@ -50,3 +55,8 @@ NodeJS
 
 [phantomjs-official]: http://phantomjs.org/
 [phantomjs-api-docs]: http://phantomjs.org/api/
+
+[node-gyp-npm]: https://www.npmjs.com/package/node-gyp
+[node-gyp-github]: https://github.com/nodejs/node-gyp
+
+[qa-1]: http://www.serverpals.com/blog/building-using-node-gyp-with-visual-studio-express-2015-on-windows-10-pro-x64
