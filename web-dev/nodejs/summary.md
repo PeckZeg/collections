@@ -19,6 +19,11 @@ NodeJS
     -  [github][thunkify-github]
 *  [Q][q-npm]
     -  [github][q-github]
+*  [Grunt][grunt-npm]
+    -  [github][grunt-github] [website][grunt-website] [doc][grunt-doc]
+    -  Plugins
+        +  [grunt-contrib-compass][grunt-contrib-compass-npm]
+        +  [grunt-contrib-rename][grunt-contrib-rename-npm]
 
 
 ## PhantomJS
@@ -31,7 +36,13 @@ NodeJS
 * [在 win10 上安装 `node-gyp`][qa-1]
 * [将 Npm 的源替换成淘宝的源][replace-registry-to-taobao-npm.md]
 
+[grunt-contrib-compass-npm]: https://www.npmjs.com/package/grunt-contrib-compass
+[grunt-contrib-rename-npm]: https://www.npmjs.com/package/grunt-contrib-rename
 
+[grunt-npm]: https://www.npmjs.com/package/grunt
+[grunt-github]: https://github.com/gruntjs/grunt
+[grunt-website]: http://gruntjs.com/
+[grunt-doc]: http://gruntjs.com/getting-started
 
 [mirror-taobao-npm]: http://npm.taobao.org/
 
