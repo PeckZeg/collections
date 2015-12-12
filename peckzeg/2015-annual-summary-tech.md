@@ -73,7 +73,7 @@
     - [`Compass`][compass] 基于 Sass/Scss 的 CSS 框架
 * [`AutoPrefixer`][autoprefixer] 为 CSS 添加更多的浏览器前缀
 
-## Other
+## Others
 
 今年主要也是围绕前端方面展开工作，比较详细的总结已经归纳成大点，比较零散的诸如对 C++ 的学习和对数据库 MongoDB 的学习也在开头就已经总结。下面会将一些零碎的知识做一些回顾并对明年的一些学习愿景做一些规划。
 
@@ -92,6 +92,8 @@
 [requirejs]: http://requirejs.org/
 [async]: https://github.com/caolan/async
 [thunkify]: https://www.npmjs.com/package/thunkify
+[co]: https://www.npmjs.com/package/co
+[q]: https://www.npmjs.com/package/q
 
 [sass-scss]: http://sass-lang.com/
 [less]: http://lesscss.org/
