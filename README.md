@@ -26,6 +26,10 @@ PeckZeg's Collections
 * [SASS](web-dev/sass/summary.md)
 * [设计参考](web-dev/design/summary.md)
 
+### 杂谈
+
+* [使用 Grunt 构建 SASS/SCSS](web/dev/articles/use-grunt-compile-sass.md)
+
 ### HTML
 
 * [条件注释](web-dev/html/conditional-comment.md)

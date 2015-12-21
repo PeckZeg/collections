@@ -24,6 +24,9 @@ NodeJS
     -  Plugins
         +  [grunt-contrib-compass][grunt-contrib-compass-npm]
         +  [grunt-contrib-rename][grunt-contrib-rename-npm]
+        +  [grunt-contrib-cssmin][grunt-contrib-cssmin]
+        +  [grunt-compass][grunt-compass]
+        +  [grunt-autoprefixer][grunt-autoprefixer]
 
 
 ## PhantomJS
@@ -38,6 +41,9 @@ NodeJS
 
 [grunt-contrib-compass-npm]: https://www.npmjs.com/package/grunt-contrib-compass
 [grunt-contrib-rename-npm]: https://www.npmjs.com/package/grunt-contrib-rename
+[grunt-compass]: https://www.npmjs.com/package/grunt-compass
+[grunt-autoprefixer]: https://www.npmjs.com/package/grunt-autoprefixer
+[grunt-contrib-cssmin]: https://www.npmjs.com/package/grunt-contrib-cssmin
 
 [grunt-npm]: https://www.npmjs.com/package/grunt
 [grunt-github]: https://github.com/gruntjs/grunt
