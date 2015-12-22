@@ -37,6 +37,7 @@ PeckZeg's Collections
 ### 其他
 
 * [微信开发](web-dev/others/wechat-dev.md)
+* [史上最全 Vim 快捷键键位图](http://cenalulu.github.io/linux/all-vim-cheatsheat/)
 
 
 
