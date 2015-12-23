@@ -24,6 +24,7 @@ PeckZeg's Collections
 * [JavaScript](web-dev/javascript/summary.md)
 * [NodeJS](web-dev/nodejs/summary.md)
 * [SASS](web-dev/sass/summary.md)
+* [CSS](web-dev/css/summary.md)
 * [设计参考](web-dev/design/summary.md)
 
 ### 杂谈
