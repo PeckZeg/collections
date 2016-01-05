@@ -43,7 +43,31 @@ _.chunk(['a', 'b', 'c', 'd'], 3);
 
 #### 示例
 
-```
+```javascript
 _.compact([0, 1, false, 2, '', 3]);
 // → [1, 2, 3]
+```
+
+
+
+### `_.difference(array, [values])`
+
+> Creates an array of unique array values not included in the other provided arrays using SameValueZero for equality comparisons.
+
+> 不包含在另外一个数组中（使用 `SameValueZero` 进行相等性比较）
+
+#### Arguments
+
+* `array` (_Array_): 待检查的数组.
+* `[values]` (_…Array_): 排除值的数组.
+
+#### Returns
+
+* (_Array_): 返回过滤后的新数组。
+
+#### 示例
+
+```
+_.difference([1, 2, 3], [4, 2]);
+// → [1, 3]
 ```

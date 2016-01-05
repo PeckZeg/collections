@@ -25,6 +25,7 @@ PeckZeg's Collections
 * [NodeJS](web-dev/nodejs/summary.md)
 * [SASS](web-dev/sass/summary.md)
 * [CSS](web-dev/css/summary.md)
+* [MongoDB](web-dev/mongodb/summary.md)
 * [设计参考](web-dev/design/summary.md)
 
 ### 杂谈
@@ -53,6 +54,7 @@ PeckZeg's Collections
 ### Git
 
 * [Git 环境搭建](git/git-config-guide.md)
+* [Fixing a Chronically Corrupt Git Index File](https://codesymphony.co/fixing-a-chronically-corrupt-git-index-file/)
 
 ### Svn
 
