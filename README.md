@@ -21,45 +21,106 @@ PeckZeg's Collections
 
 ## Web Development
 
-* [框架](web-dev/framework.md)
-* [JavaScript](web-dev/javascript/summary.md)
-* [NodeJS](web-dev/nodejs/summary.md)
-* [SASS](web-dev/sass/summary.md)
-* [CSS](web-dev/css/summary.md)
-* [MongoDB](web-dev/mongodb/summary.md)
-* [设计参考](web-dev/design/summary.md)
 
-### 杂谈
 
+### Frameworks
+
+* [Bootstrap][bootstrap]
+    - [Bootstrap Confirmation][bootstrap-confirmation]
+* [PhantomJS][phantomjs] <br> *<small>基于 WebKit 的服务器端 JavaScript API</small>* <br> [API][phantomjs-api]
+
+
+
+### JavaScript & NodeJS
+
+#### Libraries
+
+* [Lodash][lodash] <br> JavaScript 工具集 [Docs][lodash-docs]
+* [promise][promise]
+* [Q][q] <br> [Docs][q-docs]
+* [cheerio][cheerio]
+* [compression][compression]
+* [phantom][phantom]
+* [co][co]
+* [thunkify][thunkify]
+* [Grunt][grunt]
+    -  [grunt-contrib-compass][grunt-contrib-compass]
+    -  [grunt-contrib-rename][grunt-contrib-rename]
+    -  [grunt-contrib-cssmin][grunt-contrib-cssmin]
+    -  [grunt-autoprefixer][grunt-autoprefixer]
+
+#### Articles
+
+* ECMAScript 6
+    - [ECMAScript 6入门](http://es6.ruanyifeng.com)
+    - [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6)
+    - [ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org)
+    - [Promises](https://www.promisejs.org)
+* [JavaScript 编码风格指南](https://www.gitbook.com/book/peckzeg/javascript-code-style)
+* [JavaScript Promise 迷你书（中文版）](http://liubin.github.io/promises-book)
+* [在 win10 上安装 `node-gyp`](http://www.serverpals.com/blog/building-using-node-gyp-with-visual-studio-express-2015-on-windows-10-pro-x64)
+* [史上最全 Vim 快捷键键位图](http://cenalulu.github.io/linux/all-vim-cheatsheat/)
+
+* [将 Npm 的源替换成淘宝的源](nodejs/replace-registry-to-taobao-npm.md)
 * [使用 Grunt 构建 SASS/SCSS](web/dev/articles/use-grunt-compile-sass.md)
+
+
 
 ### HTML
 
+#### Articles
+
 * [条件注释](web-dev/html/conditional-comment.md)
 
-### 其他
 
-* [微信开发](web-dev/others/wechat-dev.md)
-* [史上最全 Vim 快捷键键位图](http://cenalulu.github.io/linux/all-vim-cheatsheat/)
+
+### CSS & SASS/SCSS & Less
+
+#### Libraries
+
+* [normalize.css][normalize.css]
+* [CSS Reset][cssreset]
+* [Bounce.js][bounce.js]
+* [CSS 参考手册][css-doyoe]
+* [SASS][sass] <br> [Docs][sass-docs]
+    - [SASS Compass][sass-compass] <br> [Docs][sass-compass-docs]
+
+#### Articles
+
+* [深入浏览器理解CSS animations 和 transitions的性能问题](http://sy-tang.github.io/2014/05/14/CSS%20animations%20and%20transitions%20performance-%20looking%20inside%20the%20browser/)
+* [SASS 安装指南](http://www.w3cplus.com/sassguide/install.html)
+* [SASS用法指南@阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+
+* [SASS/SCSS Mixins](web-dev/sass/mixins.md)
+
+
+
+
+### MongoDB
+
+#### Articles
+
+* [MongoDB 数据备份/恢复](web-dev/mongodb/mongodb-data-backup.md)
+* [为 MongoDB 添加 auth 验证](web-dev/mongodb/auth.md)
+
+
+
+### Design
+
+#### Resources
+
+* [Transfonter](http://transfonter.org/) <br> *<small>在线字体转换器</small>*
+* [TinyPNG](https://tinypng.com/) <br> *<small>压缩 PNG 图片存储空间</small>*
+
+#### Articles
+
+* [配色教程特别版！3个技巧搞定可视化信息图的色彩搭配](http://www.uisdc.com/palettes-for-data-visualizations)
 
 
 
 ## Sublime
 
 * [Sublime 3 包 & 主题](sublime/sublime3-packages.md)
-
-
-
-## Design
-
-### Resources
-
-* [Transfonter](http://transfonter.org/) <br> *在线字体转换器*
-* [TinyPNG](https://tinypng.com/) <br> *压缩 PNG 图片存储空间*
-
-## Articles
-
-* [配色教程特别版！3个技巧搞定可视化信息图的色彩搭配](http://www.uisdc.com/palettes-for-data-visualizations)
 
 
 
@@ -88,3 +149,40 @@ PeckZeg's Collections
 * [2015 总结 - 撸码篇](peckzeg/2015-annual-summary-tech.md)
 * [2015 总结 - 撸码篇 2](peckzeg/2015-annual-summary-tech2.md)
 * [2016 一月撸码小结](peckzeg/2016-jan-summary.md)
+
+
+
+
+[bootstrap]: http://getbootstrap.com/
+[bootstrap-confirmation]: https://ethaizone.github.io/Bootstrap-Confirmation/
+[phantomjs]: http://phantomjs.org/
+[phantomjs-api]: http://phantomjs.org/api/
+
+
+[lodash]: https://lodash.com/
+[lodash-docs]: https://lodash.com/docs
+
+[promise]: https://github.com/then/promise
+[q]: https://github.com/kriskowal/q
+[q-docs]: http://documentup.com/kriskowal/q
+
+[cheerio]: https://www.npmjs.com/package/cheerio
+[compression]: https://www.npmjs.com/package/compression
+[phantom]: https://www.npmjs.com/package/phantom
+[co]: https://www.npmjs.com/package/co
+[thunkify]: https://www.npmjs.com/package/thunkify
+[grunt]: https://www.npmjs.com/package/grunt
+[grunt-contrib-compass]: https://www.npmjs.com/package/grunt-contrib-compass
+[grunt-contrib-rename]: https://www.npmjs.com/package/grunt-contrib-rename
+[grunt-contrib-cssmin]: https://www.npmjs.com/package/grunt-contrib-cssmin
+[grunt-autoprefixer]: https://www.npmjs.com/package/grunt-autoprefixer
+
+[normalize.css]: https://necolas.github.io/normalize.css/
+[bounce.js]: http://bouncejs.com/
+[cssreset]: http://cssreset.com/
+[css-doyoe]: http://css.doyoe.com/
+
+[sass]: http://sass-lang.com/
+[sass-docs]: http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+[sass-compass]: http://compass-style.org/
+[sass-compass-docs]: http://compass-style.org/reference/compass/
