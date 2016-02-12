@@ -50,6 +50,19 @@ PeckZeg's Collections
 
 
 
+## Design
+
+### Resources
+
+* [Transfonter](http://transfonter.org/) <br> *在线字体转换器*
+* [TinyPNG](https://tinypng.com/) <br> *压缩 PNG 图片存储空间*
+
+## Articles
+
+* [配色教程特别版！3个技巧搞定可视化信息图的色彩搭配](http://www.uisdc.com/palettes-for-data-visualizations)
+
+
+
 ## Version Control
 
 ### Git
@@ -63,6 +76,15 @@ PeckZeg's Collections
 
 
 
+## Chrome
+
+* [Vimium 快捷键指南](chrome/vimium-commands.md)
+
+
+
 ## About PeckZeg
 
 * [项目经验](peckzeg/project-index.md)
+* [2015 总结 - 撸码篇](peckzeg/2015-annual-summary-tech.md)
+* [2015 总结 - 撸码篇 2](peckzeg/2015-annual-summary-tech2.md)
+* [2016 一月撸码小结](peckzeg/2016-jan-summary.md)
