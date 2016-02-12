@@ -27,7 +27,7 @@ PeckZeg's Collections
 
 * [Bootstrap][bootstrap]
     - [Bootstrap Confirmation][bootstrap-confirmation]
-* [PhantomJS][phantomjs] <br> *<small>基于 WebKit 的服务器端 JavaScript API</small>* <br> [API][phantomjs-api]
+* [PhantomJS][phantomjs] <br> <small>*基于 WebKit 的服务器端 JavaScript API*</small> <br> [API][phantomjs-api]
 
 
 
@@ -109,8 +109,8 @@ PeckZeg's Collections
 
 #### Resources
 
-* [Transfonter](http://transfonter.org/) <br> *<small>在线字体转换器</small>*
-* [TinyPNG](https://tinypng.com/) <br> *<small>压缩 PNG 图片存储空间</small>*
+* [Transfonter](http://transfonter.org/) <br> <small>*在线字体转换器*</small>
+* [TinyPNG](https://tinypng.com/) <br> <small>*压缩 PNG 图片存储空间*</small>
 
 #### Articles
 
