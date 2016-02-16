@@ -93,6 +93,7 @@ PeckZeg's Collections
 * [SASS用法指南@阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
 * [SASS/SCSS Mixins](web-dev/sass/mixins.md)
+* [设置 Sass 的编码为 UTF8](web-dev/sass/set-encoding-utf8.md)
 
 
 
