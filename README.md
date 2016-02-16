@@ -63,6 +63,7 @@ PeckZeg's Collections
 
 * [将 Npm 的源替换成淘宝的源](nodejs/replace-registry-to-taobao-npm.md)
 * [使用 Grunt 构建 SASS/SCSS](web/dev/articles/use-grunt-compile-sass.md)
+* [现在就启用 HTTPS，免费的！](http://www.oschina.net/translate/switch-to-https-now-for-free)
 
 
 
