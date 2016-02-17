@@ -60,10 +60,9 @@ PeckZeg's Collections
 * [JavaScript Promise 迷你书（中文版）](http://liubin.github.io/promises-book)
 * [在 win10 上安装 `node-gyp`](http://www.serverpals.com/blog/building-using-node-gyp-with-visual-studio-express-2015-on-windows-10-pro-x64)
 * [史上最全 Vim 快捷键键位图](http://cenalulu.github.io/linux/all-vim-cheatsheat/)
-
-* [将 Npm 的源替换成淘宝的源](nodejs/replace-registry-to-taobao-npm.md)
-* [使用 Grunt 构建 SASS/SCSS](web/dev/articles/use-grunt-compile-sass.md)
 * [现在就启用 HTTPS，免费的！](http://www.oschina.net/translate/switch-to-https-now-for-free)
+* [将 Npm 的源替换成淘宝的源](web-dev/nodejs/replace-registry-to-taobao-npm.md)
+* [使用 Grunt 构建 SASS/SCSS](web-dev/articles/use-grunt-compile-sass.md)
 
 
 
@@ -91,7 +90,6 @@ PeckZeg's Collections
 * [深入浏览器理解CSS animations 和 transitions的性能问题](http://sy-tang.github.io/2014/05/14/CSS%20animations%20and%20transitions%20performance-%20looking%20inside%20the%20browser/)
 * [SASS 安装指南](http://www.w3cplus.com/sassguide/install.html)
 * [SASS用法指南@阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
-
 * [SASS/SCSS Mixins](web-dev/sass/mixins.md)
 * [设置 Sass 的编码为 UTF8](web-dev/sass/set-encoding-utf8.md)
 
@@ -117,6 +115,12 @@ PeckZeg's Collections
 #### Articles
 
 * [配色教程特别版！3个技巧搞定可视化信息图的色彩搭配](http://www.uisdc.com/palettes-for-data-visualizations)
+
+
+
+### 其他文章
+
+* [软件版本命名规范 (GNU 风格)](web-dev/artiacles/gnu-version-style.md)
 
 
 
