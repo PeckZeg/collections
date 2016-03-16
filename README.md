@@ -115,6 +115,7 @@ PeckZeg's Collections
 #### Articles
 
 * [配色教程特别版！3个技巧搞定可视化信息图的色彩搭配](http://www.uisdc.com/palettes-for-data-visualizations)
+* [在网页上使用苹方字体](http://note.rpsh.net/posts/2015/11/18/using-pingfang-font-in-website/)
 
 
 
