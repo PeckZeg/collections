@@ -34,6 +34,7 @@ PeckZeg's Collections
 ### JavaScript & NodeJS
 
 * [React](web-dev/react.md)
+* [CoffeeScript](web-dev/coffeescript.md)
 
 #### Libraries
 
