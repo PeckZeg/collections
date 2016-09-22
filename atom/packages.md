@@ -1,0 +1,18 @@
+# Atom Packages
+
+* [atom-beautify](https://atom.io/packages/atom-beautify)
+* [autocomplete-plus](https://atom.io/packages/autocomplete-plus)
+* [busy](https://atom.io/packages/busy)
+* [color-picker](https://atom.io/packages/color-picker)
+* [csslint](https://atom.io/packages/csslint)
+* [emmet](https://atom.io/packages/emmet)
+* [file-icons](https://atom.io/packages/file-icons)
+* [gpp-compiler](https://atom.io/packages/gpp-compiler)
+* [jshint](https://atom.io/packages/jshint)
+* [keyboard-scroll](https://atom.io/packages/keyboard-scroll)
+* [language-lua](https://atom.io/packages/language-lua)
+* [linter](https://atom.io/packages/linter)
+* [linter-coffeelint](https://atom.io/packages/linter-coffeelint)
+* [minimap](https://atom.io/packages/minimap)
+* [regex-railroad-diagram](https://atom.io/packages/regex-railroad-diagram)
+* [script](https://atom.io/packages/script)
