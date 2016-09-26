@@ -1,1 +1,1 @@
-Apps====* [Keka](http://www.kekaosx.com/zh-cn/)* [Spectacle](http://spectacleapp.com/)* [Go2Shell](http://zipzapmac.com/go2shell)
+Apps====* [Keka](http://www.kekaosx.com/zh-cn/)* [Spectacle](http://spectacleapp.com/)* [Go2Shell](http://zipzapmac.com/go2shell)* [iTerm2](https://www.iterm2.com/)
