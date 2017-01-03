@@ -20,3 +20,7 @@ SASS/SCSS Mixins
   height: $height;
 }
 ```
+
+## `@include rem($properties, $values)`
+
+[sass-rem](https://github.com/pierreburel/sass-rem)

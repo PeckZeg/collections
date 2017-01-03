@@ -1,4 +1,5 @@
-# Atom Key map
+Atom Key Map
+============
 
 ```yaml
 'body':

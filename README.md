@@ -7,6 +7,7 @@ PeckZeg's Collections
 
 * [显示/隐藏所有文件](system/mac-os/show-all-files.md)
 * [Apps](system/mac-os/apps.md)
+* [在 Mac OS 中制作 zip 包时不打包 `.DS_Store` 文件](system/mac-os/remove-ds-store-files-by-use-zip-command.md)
 
 ### Windows
 
@@ -16,8 +17,6 @@ PeckZeg's Collections
 ### Ubuntu
 
 * [Ubuntu 12.10 上安装 Node.js](http://stackoverflow.com/questions/16302436/install-node-js-on-ubuntu-12-10)
-
-
 
 ## Web Development
 
@@ -66,7 +65,7 @@ PeckZeg's Collections
 * [现在就启用 HTTPS，免费的！](http://www.oschina.net/translate/switch-to-https-now-for-free)
 * [将 Npm 的源替换成淘宝的源](web-dev/nodejs/replace-registry-to-taobao-npm.md)
 * [使用 Grunt 构建 SASS/SCSS](web-dev/articles/use-grunt-compile-sass.md)
-
+* [web app变革之rem](https://isux.tencent.com/web-app-rem.html)
 
 
 ### HTML
@@ -132,11 +131,22 @@ PeckZeg's Collections
 
 
 
-## Sublime
+## Editor
 
-* [Sublime 3 包 & 主题](sublime/sublime3-packages.md)
+### Sublime
 
+* [Sublime3 支持编译 C++ 11](sublime/build-cpp11-system.md)
+* [Packages & Themes](sublime/sublime3-packages.md)
 
+### Atom
+
+* [Atom 的 linter-coffeelint 配置](atom/add-coffee-lint-config.md)
+* [Key Map](atom/keymap.md)
+* [Packages](atom/packages.md)
+
+### Vim
+
+* [在 Mac OS X 终端里使用 Solarized 配色方案](http://www.vpsee.com/2013/09/use-the-solarized-color-theme-on-mac-os-x-terminal/)
 
 ## Version Control
 
