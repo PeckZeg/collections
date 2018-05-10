@@ -154,6 +154,7 @@ PeckZeg's Collections
 
 * [Git 环境搭建](git/git-config-guide.md)
 * [Fixing a Chronically Corrupt Git Index File](https://codesymphony.co/fixing-a-chronically-corrupt-git-index-file/)
+* [更优雅的使用 Git](https://juejin.im/post/5af152c1518825673e359539)
 
 ### Svn
 
