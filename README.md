@@ -174,7 +174,7 @@ PeckZeg's Collections
 * [2015 总结 - 撸码篇](peckzeg/2015-annual-summary-tech.md)
 * [2015 总结 - 撸码篇 2](peckzeg/2015-annual-summary-tech2.md)
 * [2016 一月撸码小结](peckzeg/2016-jan-summary.md)
-
+* [2018 总结](peckzeg/2018.md)
 
 
 
