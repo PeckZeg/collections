@@ -3,10 +3,14 @@
 ## 目录
 
 * [通识](#通识)
+    * [web 标准的理解](#web 标准的理解)
+* [HTML](#HTML)
+    * [字符实体](#字符实体)
+    * [`cellpadding` 与 `cellspacing`](#-cellpadding-与-cellspacing)
 
 ## 通识
 
-### 谈谈你对web标准的理解
+### web 标准的理解
 
 <details>
 <summary>答案</summary>
@@ -69,7 +73,7 @@ HTML 中的常用字符实体是不间断空格(`&nbsp;`)。
 
 </details>
 
-### `<table />` 的 `cellpadding` 与 `cellspacing`
+### `cellpadding` 与 `cellspacing`
 
 <details>
 <summary>答案</summary>
