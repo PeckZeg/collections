@@ -3,10 +3,13 @@
 ## 目录
 
 * [通识](#通识)
-    * [web 标准的理解](#web 标准的理解)
+    * [web 标准的理解](#web-标准的理解)
 * [HTML](#HTML)
     * [字符实体](#字符实体)
-    * [`cellpadding` 与 `cellspacing`](#-cellpadding-与-cellspacing)
+    * [`cellpadding` 与 `cellspacing`](#cellpadding-与-cellspacing)
+* [CSS](#CSS)
+    * [选择器](#选择器)
+    * [选择器优先级与覆盖规则](#选择器优先级与覆盖规则)
 
 ## 通识
 
@@ -86,4 +89,150 @@ HTML 中的常用字符实体是不间断空格(`&nbsp;`)。
 
 * [MDN - `table`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 * [RUNOOB - HTML `<table>` `cellspacing` 属性](https://www.runoob.com/tags/att-table-cellspacing.html)
+</details>
+
+## CSS
+
+### 选择器
+
+<details>
+<summary>答案</summary>
+
+> 摘抄自 [MDN - CSS 选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors)
+
+#### 基本选择器
+
+##### 通用选择器 <small>Universal selector</small>
+
+选择所有元素。（可选）可以将其限制为特定的名称空间或所有名称空间。
+
+* 语法: `*` `ns|*` `*|*`
+* 例子：`*` 将匹配文档的所有元素。
+
+##### 类型选择器 <small>Type selector</small>
+
+按照给定的节点名称，选择所有匹配的元素。
+
+* 语法：`elementname`
+* 例子：`input` 匹配任何 `<input>` 元素。
+
+##### 类选择器 <small>Class selector</small>
+
+按照给定的 `class` 属性的值，选择所有匹配的元素。
+
+* 语法：`.classname`
+* 例子：`.index` 匹配任何 `class` 属性中含有 `index` 类的元素。
+
+##### ID 选择器 <small>ID selector</small>
+
+按照 id 属性选择一个与之匹配的元素。需要注意的是，一个文档中，每个 ID 属性都应当是唯一的。
+
+* 语法：`#idname`
+* 例子：`#toc` 匹配 ID 为 `toc` 的元素。
+
+##### 属性选择器 <small>Attribute selector</small>
+
+按照给定的属性，选择所有匹配的元素。
+
+* 语法：`[attr]` `[attr=value]` `[attr~=value]` `[attr|=value]` `[attr^=value]` `[attr$=value]` `[attr*=value]`
+* 例子：`[autoplay]` 选择所有具有 `autoplay` 属性的元素（不论这个属性的值是什么）。
+
+#### 分组选择器 <small>Grouping selectors</small>
+
+##### 选择器列表 <small>Selector list</small>
+
+`,` 是将不同的选择器组合在一起的方法，它选择所有能被列表中的任意一个选择器选中的节点。
+
+* 语法：`A, B`
+* 示例：`div, span` 会同时匹配 `<span>` 元素和 `<div>` 元素。
+
+#### 组合器 <small>Combinators</small>
+
+##### 后代组合器 <small>Descendant combinator</small>
+
+` `（空格）组合器选择前一个元素的后代节点。
+
+* 语法：`A B`
+* 例子：`div span` 匹配所有位于任意 `<div>` 元素之内的 `<span>` 元素。
+
+##### 直接子代组合器 <small>Child combinator</small>
+
+`>` 组合器选择前一个元素的直接子代的节点。
+
+* 语法：`A > B`
+* 例子：`ul > li` 匹配直接嵌套在 `<ul>` 元素内的所有 `<li>` 元素。
+
+##### 一般兄弟组合器（General sibling combinator）
+
+`~` 组合器选择兄弟元素，也就是说，后一个节点在前一个节点后面的任意位置，并且共享同一个父节点。
+
+* 语法：`A ~ B`
+* 例子：`p ~ span` 匹配同一父元素下，`<p>` 元素后的所有 `<span>` 元素。
+
+##### 紧邻兄弟组合器 <small>Adjacent sibling combinator</small>
+
+`+` 组合器选择相邻元素，即后一个元素紧跟在前一个之后，并且共享同一个父节点。
+
+* 语法：`A + B`
+* 例子：`h2 + p` 会匹配所有紧邻在 `<h2>` 元素后的 `<p>` 元素。
+
+##### 列组合器 <small>Column combinator</small>
+
+`||` 组合器选择属于某个表格行的节点。
+
+* 语法：`A || B`
+* 例子：`col || td` 会匹配所有 `<col>` 作用域内的 `<td>` 元素。
+
+#### 伪选择器 <small>Pseudo</small>
+
+##### 伪类
+
+`:` 伪选择器支持按照未被包含在文档树中的状态信息来选择元素。
+
+* 例子：`a:visited` 匹配所有曾被访问过的 `<a>` 元素。
+
+##### 伪元素
+
+`::` 伪选择器用于表示无法用 HTML 语义表达的实体。
+
+* 例子：`p::first-line` 匹配所有 `<p>` 元素的第一行。
+
+#### 引用
+
+* [MDN - CSS 选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors)
+* [阮一峰的网络日志 - CSS选择器笔记](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
+* [W3school - CSS 选择器参考手册](https://www.w3school.com.cn/cssref/css_selectors.asp)
+* [CSS参考手册](http://css.doyoe.com/)
+</details>
+
+### 选择器优先级与覆盖规则
+
+<details>
+<summary>答案</summary>
+
+> 基于 [RUNOOB - CSS 样式优先级](https://www.runoob.com/w3cnote/css-style-priority.html) 整理
+
+#### 选择器优先级
+
+1. ID 选择器
+2. 类选择器
+3. 属性选择器
+4. 伪类选择器
+5. 伪元素选择器
+6. 标签选择器
+7. 通配选择器
+
+#### 覆盖规则
+
+1. 最近的祖先样式比其他祖先样式优先级高
+2. "直接样式"比"祖先样式"优先级高
+3. 优先级关系
+4. 权重一样的情况下则就近原则
+5. 属性后插有 `!important` 的属性拥有最高优先级。若同时插有 `!important`，则再利用规则 3、4 判断优先级
+
+#### 引用
+
+* [RUNOOB - CSS 样式优先级](https://www.runoob.com/w3cnote/css-style-priority.html)
+* [MDN - 优先级](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity)
+* [CSS Specifishity](https://specifishity.com/)
 </details>
