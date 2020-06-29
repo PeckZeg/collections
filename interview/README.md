@@ -236,3 +236,24 @@ HTML 中的常用字符实体是不间断空格(`&nbsp;`)。
 * [MDN - 优先级](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity)
 * [CSS Specifishity](https://specifishity.com/)
 </details>
+
+### `display`, `visiblity`, `opacity`
+
+<details>
+<summary>答案</summary>
+
+> 来自 [stackoverflow](https://stackoverflow.com/a/273076/4662191)
+
+css                    | collapse | events | taborder
+---------------------- | -------- | ------ | ----
+`opacity: 0`           | No       | Yes    | Yes
+`visibility: hidden`   | No       | No     | No
+`visibility: collapse` | Yes*     | No     | No
+`display: none`        | Yes      | No     | No
+
+#### 引用
+
+* [stackoverflow](https://stackoverflow.com/a/273076/4662191)
+* [segmentfault - CSS中用 opacity、visibility、display 属性将 元素隐藏 的 对比分析](https://segmentfault.com/a/1190000015116392)
+* [RUNOOB - CSS Display(显示) 与 Visibility（可见性）](https://www.runoob.com/css/css-display-visibility.html)
+</details>
