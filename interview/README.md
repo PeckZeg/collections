@@ -12,6 +12,8 @@
     * [选择器优先级与覆盖规则](#选择器优先级与覆盖规则)
     * [`display`, `visiblity`, `opacity`](#display-visiblity-opacity)
     * [`position`](#position)
+* [排序算法](Sort.md)
+* [LeetCode 算法题](LeetCode.md)
     
 
 ## 通识
