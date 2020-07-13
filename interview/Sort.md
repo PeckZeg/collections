@@ -4,6 +4,9 @@
 
 * [冒泡排序 <small>(Bubble Sort)</small>](#冒泡排序-bubble-sort)
 * [插入排序 <small>(Insertion Sort)</small>](#插入排序-insertion-sort)
+* [希尔排序 <small>(Shell Sort)</small>](#希尔排序-shell-sort)
+* [归并排序 <small>(Merge Sort)</small>](#归并排序-merge-sort)
+* [快速排序 <small>(Quick Sort)</small>](#快速排序-quick-sort)
 
 ## 冒泡排序 <small>(Bubble Sort)</small>
 
@@ -147,4 +150,124 @@ function insertionSort(arr) {
 
 // [ -427, -31, 15, 213, 233, 10086, 5201314 ]
 insertionSort([233, 10086, -31, 15, 213, 5201314, -427]);
+```
+
+## 希尔排序 <small>(Shell Sort)</small>
+
+> [维基百科 - 希尔排序](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F)
+
+### 算法
+
+1. 选择一个增量序列 t1, t2, …, tk，其中 `ti > tj`，`tk = 1`
+2. 按增量序列个数 `k`，对序列进行 `k` 趟排序
+3. 每趟排序，根据对应的增量 `ti`，将待排序列分割成若干长度为 `m` 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
+
+### 实现
+
+```js
+/**
+ * Insertion Sort
+ * @param {number[]} arr
+ * @returns {number[]}
+ */
+function shellSort(arr) {
+  let gap = 1;
+
+    while(gap < arr.length / 5) {
+      gap = gap * 5 + 1;
+    }
+
+    for (; gap > 0; gap = Math.floor(gap / 5)) {
+        for (let i = gap; i < arr.length; i++) {
+            const temp = arr[i];
+            let j = i - gap;
+
+            for (; j >= 0 && arr[j] > temp; j -= gap) {
+                arr[j + gap] = arr[j];
+            }
+
+            arr[j + gap] = temp;
+        }
+    }
+
+  return arr;
+}
+
+// [ -427, -31, 15, 213, 233, 10086, 5201314 ]
+shellSort([233, 10086, -31, 15, 213, 5201314, -427]);
+```
+
+## 归并排序 <small>(Merge Sort)</small>
+
+> [维基百科 - 归并排序](https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)
+
+### 实现
+
+```js
+function merge(left, right) {
+  let result = [];
+
+  while (left.length > 0 && right.length > 0) {
+    if (left[0] < right[0]) {
+      result.push(left.shift());
+    }
+
+    else {
+      result.push(right.shift());
+    }
+  }
+
+  return result.concat(left, right);
+}
+
+function mergeSort(arr) {
+  if (arr.length < 2) {
+    return arr;
+  }
+
+  let mid = Math.floor(arr.length / 2);
+  let left = arr.slice(0, mid);
+  let right = arr.slice(mid);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+// [ -427, -31, 15, 213, 233, 10086, 5201314 ]
+mergeSort([233, 10086, -31, 15, 213, 5201314, -427]);
+```
+
+## 快速排序 <small>(Quick Sort)</small>
+
+> [维基百科 - 快速排序](https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)
+
+### 实现
+
+```js
+function quickSort(arr, left, right) {
+  left = left || 0;
+  right = right || arr.length - 1;
+
+  if (left < right) {
+    let x = arr[right];
+    let i = left - 1;
+    let temp;
+
+    for (let j = left; j <= right; j++) {
+      if (arr[j] <= x) {
+        i++;
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+
+    quickSort(arr, left, i - 1);
+    quickSort(arr, i + 1, right);
+  }
+
+  return arr;
+}
+
+// [ -427, -31, 15, 213, 233, 10086, 5201314 ]
+quickSort([233, 10086, -31, 15, 213, 5201314, -427]);
 ```
