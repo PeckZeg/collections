@@ -3,6 +3,7 @@
 ## 目录
 
 * [冒泡排序 <small>(Bubble Sort)</small>](#冒泡排序-bubble-sort)
+* [插入排序 <small>(Insertion Sort)</small>](#插入排序-insertion-sort)
 
 ## 冒泡排序 <small>(Bubble Sort)</small>
 
@@ -16,9 +17,6 @@
 4. 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
 
 ### 实现
-
-<details>
-<summary>源代码</summary>
 
 ```js
 function bubbleSort(arr) {
@@ -38,14 +36,10 @@ function bubbleSort(arr) {
 // [ -427, -31, 15, 213, 233, 10086, 5201314 ]
 bubbleSort([233, 10086, -31, 15, 213, 5201314, -427]);
 ```
-</details>
 
 ### 改进 1
 
 设置一个标记 `pos`，用于记录每趟排序中最后一次进行交换的位置。由于 `pos` 位置之后的记录均已交换到位，故在进行下一趟排序时只要扫描到 `pos` 位置即可。
-
-<details>
-<summary>源代码</summary>
 
 ```js
 function bubbleSort(arr) {
@@ -73,14 +67,10 @@ function bubbleSort(arr) {
 // [ -427, -31, 15, 213, 233, 10086, 5201314 ]
 bubbleSort([233, 10086, -31, 15, 213, 5201314, -427]);
 ```
-</details>
 
 ### 改进 2
 
 每次排序进行正向/反向 2 次排序，每次均可获得一个最大值与最小值，缩短时间。
-
-<details>
-<summary>源代码</summary>
 
 ```js
 function bubbleSort(arr) {
@@ -117,4 +107,44 @@ function bubbleSort(arr) {
 // [ -427, -31, 15, 213, 233, 10086, 5201314 ]
 bubbleSort([233, 10086, -31, 15, 213, 5201314, -427]);
 ```
-</details>
+
+## 插入排序 <small>(Insertion Sort)</small>
+
+> [维基百科 - 插入排序](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F)
+
+### 算法
+
+1. 从第一个元素开始，该元素可以认为已经被排序
+2. 取出下一个元素，在已经排序的元素序列中从后向前扫描
+3. 如果该元素（已排序）大于新元素，将该元素移到下一位置
+4. 重复步骤 3，直到找到已排序的元素小于或者等于新元素的位置
+5. 将新元素插入到该位置后
+6. 重复步骤 2 ~ 5
+
+### 实现
+
+```js
+/**
+ * Insertion Sort
+ * @param {number[]} arr
+ * @returns {number[]}
+ */
+function insertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
+    let key = arr[i];
+    let j = i - 1;
+
+    while (j >= 0 && arr[j] > key) {
+      arr[j + 1] = arr[j];
+      j--;
+    }
+
+    arr[j + 1] = key;
+  }
+
+  return arr;
+}
+
+// [ -427, -31, 15, 213, 233, 10086, 5201314 ]
+insertionSort([233, 10086, -31, 15, 213, 5201314, -427]);
+```
