@@ -4,6 +4,7 @@
 
 * [通识](#通识)
     * [web 标准的理解](#web-标准的理解)
+    * [HTTP 缓存](#http-缓存)
 * [HTML](#HTML)
     * [字符实体](#字符实体)
     * [`cellpadding` 与 `cellspacing`](#cellpadding-与-cellspacing)
@@ -30,6 +31,15 @@ Web标准经过精心设计，旨在让广大用户享有最佳的上网体验�
 * [MDN - Web 标准](https://developer.mozilla.org/zh-CN/docs/Archive/Web_%E6%A0%87%E5%87%86)
 * [对web标准的理解](https://www.jianshu.com/p/b9147262ef8e)
 * [web前端面试题第一道—web标准](https://www.jianshu.com/p/14c5b7ca56b8)
+</details>
+
+### HTTP 缓存
+
+<details>
+<summary>答案</summary>
+
+* [MDN - HTTP 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
+* [知乎 - 浏览器缓存看这一篇就够了](https://zhuanlan.zhihu.com/p/60950750)
 </details>
 
 ## HTML
